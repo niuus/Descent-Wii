@@ -137,7 +137,7 @@ int wiiwin_init()
 	rmode = VIDEO_GetPreferredMode(NULL);
 
 	if (rmode == &TVPal528IntDf)
-		rmode = &TVPal574IntDfScale;
+		rmode = &TVPal576IntDfScale;
 
 #ifdef __wii__
 	if (CONF_GetAspectRatio() == CONF_ASPECT_16_9)
